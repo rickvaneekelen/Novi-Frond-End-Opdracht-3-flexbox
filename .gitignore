@@ -1,1 +1,5 @@
 .idea
+.idea/modules.xml
+.idea/vcs.xml
+index.js
+package.json

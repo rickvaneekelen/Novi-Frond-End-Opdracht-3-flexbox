@@ -1,1 +1,112 @@
 /*Schrijf hier jouw css*/
+
+
+/*main styles*/
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+h1{
+    margin: 0.5rem 0 0;
+}
+h3{
+    margin: 0  0 0.5rem;
+}
+p{
+    font-weight: 400;
+    font-size: calc( calc(18% + 0.7vw) + calc(18% + 0.7vh));
+}
+
+/*flexbox and alignment*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /*border: solid black 4px;*/
+    margin: 0;
+}
+header.header-outer-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #030027;
+    color: white;
+}
+div.header-column{
+    display: flex;
+    /*border: solid blue 4px ;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.logo{
+    display: flex;
+    border: solid black 4px;
+    padding: 1rem 1rem 1rem 1.5rem;
+    font-weight: 400;
+}
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    border: solid black 4px;
+    width: 25rem;
+    justify-content: space-evenly;
+}
+.nav-items{
+    display: flex;
+    row-gap: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2D8;
+    height: 100%;
+}
+main>section{
+    display: flex;
+    width: 70%;
+    /*border: solid purple 4px;*/
+    justify-content: center;
+    margin: 1rem 1rem
+}
+div.outer-row{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*border: solid green 4px*/
+}
+div.inner-row1{
+    display: flex;
+    flex-direction: column;
+    /*border: solid blue 4px;*/
+    margin-bottom: 1rem;
+    width: 100%;
+}
+div.inner-row2{
+    /*border: solid blue 4px;*/
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    margin-bottom: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20rem;
+    margin: 1rem;
+    background-color: #C16E70;
+    border-radius: 0.5rem;
+    /*border: solid orange 4px;*/
+    min-width: 9rem;
+}
+p{
+    /*border: solid lightblue 4px;*/
+    padding:0.5rem;
+
+}
+

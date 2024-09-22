@@ -1,1 +1,55 @@
 /*Schrijf hier jouw CSS*/
+ .opdracht-1>ul{
+    display: flex;
+     justify-content: space-between;
+}
+
+
+
+.opdracht-2>ul{
+    display: flex;
+}
+.opdracht-2>ul>li{
+    flex: 1; /*flex-grow equal value*/
+}
+
+.opdracht-3>ul{
+    display: flex;
+    justify-content: space-between;
+    Height:100px
+}
+.opdracht-3 .item1{
+    align-self: flex-start;
+}
+.opdracht-3 .item2{
+    align-self: center;
+}
+.opdracht-3 .item3{
+  align-self: flex-end;
+}
+.opdracht-4 ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.opdracht-5 div{
+    display: flex;
+    justify-content: space-between
+}
+.opdracht-5 .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    Height:100px;
+}
+
+.C51{
+    align-items: flex-start;
+}
+.C52{
+    align-items: center;
+}
+
+.C53{
+    align-items: flex-end;
+}
